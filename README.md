@@ -130,4 +130,8 @@ python train.py --model GAT
 | GraphSAGE | ~81% |
 | GAT（2 heads） | ~82% |
 
----
+| 比較面向 | 說明 |
+|----------|------|
+| 收斂速度 | GraphSAGE 通常收斂較快，GAT 前期震盪較大 |
+| 最終準確率 | GAT 憑藉注意力機制通常略優於 GraphSAGE |
+| 過擬合傾向 | Dropout 0.6 有效抑制，兩者訓練曲線皆穩定下降 |
