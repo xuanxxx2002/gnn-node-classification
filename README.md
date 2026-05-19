@@ -131,22 +131,3 @@ python train.py --model GAT
 | GAT（2 heads） | ~82% |
 
 ---
-
-## 參考文獻
-
-```bibtex
-@inproceedings{hamilton2017inductive,
-  title     = {Inductive Representation Learning on Large Graphs},
-  author    = {Hamilton, Will and Ying, Zhitao and Leskovec, Jure},
-  booktitle = {NeurIPS},
-  year      = {2017}
-}
-
-@inproceedings{velickovic2018graph,
-  title     = {Graph Attention Networks},
-  author    = {Veli{\v{c}}kovi{\'c}, Petar and Cucurull, Guillem and Casanova, Arantxa
-               and Romero, Adriana and Li{\`o}, Pietro and Bengio, Yoshua},
-  booktitle = {ICLR},
-  year      = {2018}
-}
-```
