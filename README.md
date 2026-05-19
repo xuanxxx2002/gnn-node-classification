@@ -130,6 +130,8 @@ python train.py --model GAT
 | GraphSAGE | ~81% |
 | GAT（2 heads） | ~82% |
 
+> 實際數值因隨機初始化略有差異，可透過調整 `--hidden_dim`、`--num_layers`、`--dropout` 等參數進一步優化。
+
 | 比較面向 | 說明 |
 |----------|------|
 | 收斂速度 | GraphSAGE 通常收斂較快，GAT 前期震盪較大 |
